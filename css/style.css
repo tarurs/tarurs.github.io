@@ -7,7 +7,7 @@
 *, *:before, *:after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;  
 }
 
 body {
@@ -1329,6 +1329,7 @@ input[type=text], input[type=email], input[type=text] {
 .frt_contact_block {
     width: 250px;
     height: 205px;
+    color: white;
 }
 
 .ftr_ico {
@@ -1339,7 +1340,6 @@ input[type=text], input[type=email], input[type=text] {
 }
 .ftr_ico:nth-child(n+2) {
     margin-left: 16px;
-
 }
 
 .ftr_facebook_icon {
