@@ -1376,6 +1376,7 @@ input[type=text], input[type=email], input[type=text] {
     .ws_steps_block:nth-child(2n) {
         left: 250px;
     }
+    
 
     .pc_card {
         width: 295px;
