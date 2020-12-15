@@ -145,6 +145,7 @@ li a {
     color: rgb(254, 185, 96);
     align-self: center;
     font-weight: normal;
+    text-align: center;
 }
 
 #about-us {
@@ -1353,4 +1354,70 @@ input[type=text], input[type=email], input[type=text] {
 }
 .ftr_google_icon {
     background-image: url(../images/ftr_social_google.svg);
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo-wrapper {
+        visibility: hidden;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .ws_steps_block {
+        right: 250px;
+    }
+
+    .ws_steps_block:nth-child(2n) {
+        left: 250px;
+    }
+
+    .pc_card {
+        width: 295px;
+    }
+
+    .ceo_photo_description, .ceo_photo {
+        width: 100%;
+    }
+
+    .testimonials_wrap {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .wsu_advantages_wrap {
+        width: 100%;
+    }
+
+    .wsu_advantages {
+        margin: 0 25px;
+    }
+
+    .wsu_advantages_desc {
+        margin-top: 10px;
+    }
+
+    .get_started {
+        margin: 45px 0;
+    }
+
+    .blog_wrap {
+        display: block;
+    }
+
+    .blog_img {
+        width: 100%;
+    }
+
+    .blog_card, .blog_card:nth-child(n+2) {
+        width: 100%;
+        margin: auto;
+        background-color:white
+    }
+
 }
